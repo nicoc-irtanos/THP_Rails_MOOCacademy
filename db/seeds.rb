@@ -2,10 +2,10 @@ require 'faker'
 
 # Créations courses
 10.times do |course|
-  course = Course.new(title: Faker::Beer.name, description: Faker::Beer.style)
+  course = Course.create(title: Faker::Beer.name, description: Faker::Beer.style)
 end
 
 #Création leçons
 10.times do |lesson|
-  lesson = Lesson.new(title: Faker::Beer.malts, body: Faker::Beer.alcohol)
+  lesson = Lesson.create(title: Faker::Beer.malts, body: Faker::Beer.alcohol, course_id: rand(Course.first.id..Course.last.id))
 end
