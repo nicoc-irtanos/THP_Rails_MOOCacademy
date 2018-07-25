@@ -1,24 +1,13 @@
-# README
+# MOOCacademy
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Prerequisites
 
-Things you may want to cover:
+Ruby version : 2.5.1
+Run ```bundle install```
 
-* Ruby version
+## Informations
 
-* System dependencies
+As for the blog, check seeds in db directory, schema and in the migration directory, every file if you want to understand all updates that
+have been done
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Models are in the app/model directory
